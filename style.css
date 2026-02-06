@@ -10,14 +10,107 @@ h1 {
     text-align: center;
 }
 
-.navbar ul {
-    
+.navbar ul { 
+/* removes bullet points */
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+/* clears floats */
+   overflow: hidden;
+   background-color: rgba(165, 111, 172, 0.753);
+}
+
+.navbar li{
+/* float list items to the left */
+    float: left;
 }
 
 .navbar a {
-   
+/* make the link fill the whole list item */
+   display: block;
+   color: beige;
+   text-align: center;
+   padding: 14px 16px;
+/* removes the underline */
+   text-decoration: none;
 }
 
 .navbar a:hover {
-    ;
+/* changes background color on hover */
+    background-color: rgba(115, 76, 121, 0.753);
+
 }
+
+
+
+
+
+
+
+
+/* AMELIA */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Container (optional but recommended) */
+.container {
+    width: 45%;
+    height: 45%
+}
+
+/* ---------------------- */
+/* ROW 1 — THREE SMALL BOXES */
+/* ---------------------- */
+
+.smallbox{
+    width: 45%;
+    height: 45%;
+    margin: 2px;
+    border: 2px solid black;
+    padding: 10px;              /* Required padding */
+    box-sizing: border-box;
+    background-color: 
+    
+}
+
+.all{
+    width: 100%;
+    height: 100%;
+    margin: auto
+    
+    
+    
+    
+}
+
+
+}
+
+.pagehead{
+    height: 500px;
+}
+
+.ariheaders{
+    background-color: rgb(235, 201, 219);
+     display: flex;
+    gap: 4px;
+    width: 70%;
+    height: 65px;
+    border: 2px solid black;
+    padding: 15px;              /* Required padding */
+    box-sizing: border-box;
+    flex-grow: ;
+
+}
+
+.aricontainer{
+    display: flex;
+    justify-content: center; 
+    overflow-wrap:break-word;
+    overflow: hidden;
+}
+
+/* LEO */
+
+
