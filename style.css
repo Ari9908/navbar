@@ -56,7 +56,9 @@ body {
 /* Container (optional but recommended) */
 .container {
     width: 45%;
-    height: 45%
+    height: 45%;
+    display:flex
+
 }
 
 /* ---------------------- */
@@ -70,14 +72,39 @@ body {
     border: 2px solid black;
     padding: 10px;              /* Required padding */
     box-sizing: border-box;
-    background-color: 
+    
     
 }
 
-.all{
+#all{
     width: 100%;
     height: 100%;
     margin: auto
+
+}
+
+.smallbox2 {
+    width:100%;
+    height: 100%;
+    margin: 2px;
+    border: 2px solid black;
+    padding: 10px;              /* Required padding */
+    box-sizing: border-box;
+    background-color: 
+}
+
+#kitten {
+
+    width: 100%;
+    height: 100%;
+    margin: auto
+
+}
+
+
+
+
+}
     
     
     
@@ -88,7 +115,8 @@ body {
 }
 
 .pagehead{
-    height: 500px;
+    justify-content: center;\
+    align-items: ;
 }
 
 .ariheaders{
@@ -100,7 +128,6 @@ body {
     border: 2px solid black;
     padding: 15px;              /* Required padding */
     box-sizing: border-box;
-    flex-grow: ;
 
 }
 
@@ -112,5 +139,23 @@ body {
 }
 
 /* LEO */
+.nav{
+    background-color: lightpink;
+    width: 100%;
+    display: block;
+    padding: 2px;
+}
+ul{
+list-style-type: none;
+display: flex;
+justify-content: space-around;
+padding: 15 px;
+background-color: pink;
+}
 
+
+
+
+    
+}
 
