@@ -157,6 +157,28 @@ border: 2px solid black;
 padding: 10px;
 box-sizing: border-box;}
 
+#Treats{
+    
+}
+
+#Combs{
+
+}
+
+#FishTank{
+
+}
+
+#BirdFeeder{
+
+}
+
+#BirdCage{
+
+}
+
+#
+
 
 
 /* Ari */
@@ -179,7 +201,6 @@ box-sizing: border-box;}
 }
 
 .ariheaders{
-  height: 30px;
   background-color: rgb(236, 207, 227);
   padding: 1em;
   font-weight: 700;
@@ -201,6 +222,7 @@ box-sizing: border-box;}
   font-weight: 700;
   color: var(--clr-light);
   text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
 }
 
@@ -220,4 +242,5 @@ box-sizing: border-box;}
   text-align: center;
   border: 10px solid var(--clr-accent);
   border-radius: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
