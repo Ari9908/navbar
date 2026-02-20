@@ -143,41 +143,66 @@ body{
     font-family: Arial, sans-serif;
 }
 
-.container{
+.containerwhoopsydaisy{
 
     width:100%
     height=100;
     display:flex
 }
-.smallbox{
-width:45%;
-height:45%;
-margin: 2px;
-border: 2px solid black;
-padding: 10px;
-box-sizing: border-box;}
 
 #Treats{
-    
+    width: 100%;
+    height:100%;
+    margin: auto
 }
 
 #Combs{
-
+    width:100%;
+    height:100%;
+    margin: auto
 }
 
 #FishTank{
-
+    width:100%;
+    height:100%;
+    margin:auto
 }
 
 #BirdFeeder{
+    width:100%;
+    height:100%;
+    margin:auto
+}
 
+.containerwhoopsydaisy2{
+        width:100%;
+        height:100%;
+        display:flex
 }
 
 #BirdCage{
-
+    width:100%;
+    height:100%;
+    margin:auto
 }
 
-#
+#KittyLitter{
+    width:100%;
+    height:100%;
+margin:auto
+}
+
+#DogLeash{
+    width:100%;
+    height:100%;
+    margin: auto
+}
+
+#CatCarrier{
+    width:100%;
+    height:100%;
+    margin: auto
+}
 
 
 
@@ -211,9 +236,12 @@ box-sizing: border-box;}
   
 }
 
-.container{
+.container1{
     justify-content: space-around;
     align-content: center;
+    width: 100%;
+    height: 100;
+    display:flex
 }
 
 .text{
@@ -243,4 +271,49 @@ box-sizing: border-box;}
   border: 10px solid var(--clr-accent);
   border-radius: 10px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.form{
+    background-color: rgba(236, 207, 227, 0.404);; 
+    height: 300px; 
+    width: 600px; 
+    margin-left: auto;
+    margin-right: auto; 
+    border-style: solid; 
+    border-color: rgb(236, 207, 227);
+    text-align: center;
+}
+
+#options{
+    color: black;
+}
+
+.table{
+    display: flex;
+  justify-content: center; 
+  align-items: center;
+     border-color:black;
+     position: center;
+    
+}
+
+th {
+  background-color: rgb(236, 207, 227);
+  color: black;
+  text-align: left; 
+  border:1px solid black;/* Aligns text to the left */
+  
+}
+
+td{
+    background-color: rgb(236, 207, 227);
+  color: black;
+  text-align: left; 
+  border:1px solid black;/* Aligns text to the left */
+}
+
+
+
+.tap{
+    text-align: center;
 }
